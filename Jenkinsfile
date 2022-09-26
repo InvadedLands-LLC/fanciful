@@ -9,7 +9,7 @@ pipeline {
                 withMaven(
                     mavenLocalRepo: '$WORKSPACE/.repository',
                 ) {
-                  sh "mvn clean deploy -DrepositoryId=invadedlands-repo"
+                  sh "mvn clean deploy"
                 }
             }
         }
