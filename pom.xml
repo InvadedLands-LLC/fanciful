@@ -33,14 +33,9 @@
 
 	<distributionManagement>
 		<repository>
-			<id>stealthyone-releases</id>
-			<url>http://repo.stealthyone.com/content/repositories/releases/</url>
+			<id>invadedlands-repo</id>
+			<url>https://repo.invadedlands.net/maven</url>
 		</repository>
-
-		<snapshotRepository>
-			<id>stealthyone-snapshots</id>
-			<url>http://repo.stealthyone.com/content/repositories/snapshots/</url>
-		</snapshotRepository>
 	</distributionManagement>
 
 	<build>
